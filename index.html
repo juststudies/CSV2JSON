@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/classless.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="csv">
+            <textarea id="CSV" placeholder="Paste here your CSV"></textarea><br>
+            <button id="convert2json">Converter para JSON</button>
+            <button class="download">Download JSON</button>
+        </div>
+    
+        <div class="json">
+            <textarea id="JSON" placeholder="Paste here your JSON"></textarea><br>
+            <button id="convert2CSV">Converter para CSV</button>
+            <button class="download">Download CSV</button>
+        </div>
+    </div>
+</body>
+<script src="./js/CSV2Arr.js"></script>
+<script src="./js/CSV2JSON.js"></script>
+<script src="./js/JSON2CSV.js"></script>
+<script src="./js/Processor.js"></script>
+</html>

@@ -1,0 +1,28 @@
+textarea{
+    width: 40vw;
+    height: 40vh;
+    background-color: #FDFAFC;
+    border-radius: 6px;
+    border: 5px solid #392F2E;
+    font-size: 16px;
+}
+
+
+
+button{
+    border-radius: 3px;
+    margin-top: 5px;
+    border: 1px solid #cae;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background: #644540;
+    color: #FDFAFC;
+    font-weight: bold;   
+}
+
+button:hover{
+    background: #cae;
+    color: #272828;
+    border-color: #272828;
+}

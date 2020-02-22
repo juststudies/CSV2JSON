@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: #0E1317; 
+}
+
+.container{
+    margin-top: 25vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.csv{
+    float: left;
+    margin-left: 5vw;
+    flex: 1;
+}
+
+.json{
+    float: right;
+    flex: 1;
+    
+}
